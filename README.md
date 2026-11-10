@@ -2,7 +2,11 @@
 
 **Evidence-first security audit, authorised fix, verification and release gating for web, cloud, AI and messaging products.**
 
+**In plain words:** FRISQ helps an AI assistant (Claude Code) review a software project for security problems carefully and honestly. It can scan code for risky patterns, and it can decide whether a release is `APPROVE`, `REVIEW` or `BLOCK` based on test evidence you give it. It will not say something is safe unless there is a recorded test to prove it.
+
 FRISQ (v0.3.0) is a Claude Code skill plus a small offline engine. The skill tells an AI assistant *how* to run a security review safely; the engine provides a read-only source scanner and a conservative evidence gate. Its core principle: **inspect everything, verify everything, trust nothing without evidence.**
+
+**It is a working starter skill, not a complete automated security auditing platform.** It does not run penetration tests or check your cloud settings for you.
 
 > **Status: early starter, not a finished security product.** See [Current limitations](#current-limitations) before relying on it. FRISQ is not a certification and does not guarantee that anything is secure.
 
@@ -108,4 +112,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).
 
 ## License
 
-No license has been chosen yet, so all rights are reserved by default. Add a `LICENSE` file to permit reuse.
+[MIT](LICENSE). The software is provided as is, with no warranty; using it does not make a system secure.
