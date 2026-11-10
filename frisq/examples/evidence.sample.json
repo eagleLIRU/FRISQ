@@ -1,0 +1,8 @@
+{
+  "commit": "REPLACE_WITH_REAL_COMMIT_SHA",
+  "environment": "staging",
+  "controls": [
+    {"control_id":"ID-01","status":"NOT_VERIFIED","severity":"HIGH"},
+    {"control_id":"AUTHZ-01","status":"NOT_VERIFIED","severity":"CRITICAL"}
+  ]
+}

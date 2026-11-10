@@ -1,0 +1,5 @@
+frisq-report.json
+__pycache__/
+.env
+.env.*
+!.env.example
